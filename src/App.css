@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+.container {
+  /* display: flex; */
+  align-items: center;
+}
+nav {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+img {
+  width: 7rem;
+}
+button {
+  margin-left: auto;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+}
+
+@media (max-width:768px) {
+  .link--container {
+    display: none;
+  }
+  img {
+    width: 5rem;
+    margin-top: -1rem;
+  }
+}
+
